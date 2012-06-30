@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2012 Andaero, Inc. 
+ * Copyright ©2012 Andaero, Inc.  
  * 
  * If you were thinking of making an unauthorized copy and using it outside the company, don't.
  * 
@@ -32,7 +32,7 @@ import android.widget.ImageButton;
 
 /**
  * @author Andaero
- *
+ * 
  */
 public class DashBoard extends Fragment implements View.OnClickListener {
 
@@ -112,7 +112,7 @@ public class DashBoard extends Fragment implements View.OnClickListener {
 
 	@Override
 	public void onPrepareOptionsMenu(Menu menu) {
-		
+
 		FragmentManager fm = getFragmentManager();
 		Fragment lC = fm.findFragmentById(R.id.listContainer);
 

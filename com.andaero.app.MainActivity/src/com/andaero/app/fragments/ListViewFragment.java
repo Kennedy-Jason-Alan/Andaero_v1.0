@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2012 Andaero, Inc. 
+ * Copyright ©2012 Andaero, Inc.  
  * 
  * If you were thinking of making an unauthorized copy and using it outside the company, don't.
  * 
