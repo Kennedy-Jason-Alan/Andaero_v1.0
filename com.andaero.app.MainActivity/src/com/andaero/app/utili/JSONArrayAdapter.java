@@ -1,3 +1,19 @@
+/**
+ * Copyright (C) 2012 Andaero, Inc. 
+ * 
+ * If you were thinking of making an unauthorized copy and using it outside the company, don't.
+ * 
+ * We have a dimly-lit bunker, deep underground, with row upon row of incubation tanks, each one 
+ * holding an Intellectual Property Lawyer in a nutrient solution of neurotoxic venom and the even-
+ * numbered isotopes of plutonium that no-one wanted to use in their nuclear weapons. If you use 
+ * this software without authorization, we will decant them off, one a day, every day, and let them 
+ * loose with an unlimited legal budget until you are nothing but a radioactive hole in the ground 
+ * surrounded by safety warnings and foreclosure notices. 
+ * 
+ * Also, the moment when they open their eyes and stare at you, it's CREEPY.
+ * 
+ */
+
 package com.andaero.app.utili;
 
 import java.util.ArrayList;
@@ -20,6 +36,10 @@ import android.widget.SimpleAdapter;
 import android.widget.SimpleAdapter.ViewBinder;
 import android.widget.TextView;
 
+/**
+ * @author Andarero
+ *
+ */
 public class JSONArrayAdapter extends BaseAdapter implements Filterable {
 
 	private JSONArray data;
