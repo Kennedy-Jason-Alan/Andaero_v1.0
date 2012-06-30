@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/acItem"
+    style="@style/listItem" >
+
+    <TextView
+        android:id="@+id/listLabel"
+        style="@style/listAcronym" />
+
+    <TextView
+        android:id="@+id/listTitle"
+        style="@style/listTitle" />
+
+    <TextView
+        android:id="@+id/listDiscription"
+        style="@style/listDiscription" />
+    
+    <TextView
+        android:id="@+id/listURI"
+        android:visibility="gone"
+        style="@style/listDiscription" />
+    
+    <TextView
+        android:id="@+id/listAdapterID"
+        android:visibility="gone"
+        style="@style/listDiscription" />
+    
+    <TextView
+        android:id="@+id/listContID"
+        android:visibility="gone"
+        style="@style/listDiscription" />
+
+</RelativeLayout>

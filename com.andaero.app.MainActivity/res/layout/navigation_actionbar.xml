@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listActionBar"
+    android:layout_width="fill_parent"
+    android:layout_height="38dp"
+    android:background="@drawable/list_actionbar_background" >
+
+    <FrameLayout
+        android:id="@+id/navigationBackBtnGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:clickable="true" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:src="@drawable/ic_return" />
+
+        <TextView
+            android:id="@+id/navigationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="21dp"
+            android:textColor="#999"
+            android:textScaleX="1.3"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/navigationSortOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:src="@drawable/ic_list_sort" />
+
+    
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/body_background"
+    android:minHeight="500dp"
+    android:minWidth="660dp"
+    android:stretchColumns="*" >
+
+    <TableRow android:layout_weight="1" >
+
+        <RelativeLayout android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/regulatoryBtn"
+                style="@style/dashBoardimageBtn"
+                android:src="@drawable/ic_launcher_regulatory" />
+
+            <TextView
+                style="@style/dashBoardTxt"
+                android:layout_below="@id/regulatoryBtn"
+                android:text="Regulatory (RGL)" />
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/formsBtn"
+                style="@style/dashBoardimageBtn"
+                android:src="@drawable/ic_launcher_forms" />
+
+            <TextView
+                style="@style/dashBoardTxt"
+                android:layout_below="@id/formsBtn"
+                android:text="Forms" />
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/manualsBtn"
+                style="@style/dashBoardimageBtn"
+                android:src="@drawable/ic_launcher_bookmarks" />
+
+            <TextView
+                style="@style/dashBoardTxt"
+                android:layout_below="@id/manualsBtn"
+                android:text="Manuals" />
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/myACBtn"
+                style="@style/dashBoardimageBtn"
+                android:src="@drawable/ic_launcher_manuals" />
+
+            <TextView
+                style="@style/dashBoardTxt"
+                android:layout_below="@id/myACBtn"
+                android:text="myAircraft" />
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow android:layout_weight="1" >
+
+        <RelativeLayout android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/toolsBtn"
+                style="@style/dashBoardimageBtn"
+                android:src="@drawable/ic_launcher_tools" />
+
+            <TextView
+                style="@style/dashBoardTxt"
+                android:layout_below="@id/toolsBtn"
+                android:text="Tools" />
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/bookmarksBtn"
+                style="@style/dashBoardimageBtn"
+                android:src="@drawable/ic_launcher_bookmarks" />
+
+            <TextView
+                style="@style/dashBoardTxt"
+                android:layout_below="@id/bookmarksBtn"
+                android:text="BookMarks" />
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/favBtn"
+                style="@style/dashBoardimageBtn"
+                android:src="@drawable/ic_launcher_favorites" />
+
+            <TextView
+                style="@style/dashBoardTxt"
+                android:layout_below="@id/favBtn"
+                android:text="Favorites" />
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/logsBtn"
+                style="@style/dashBoardimageBtn"
+                android:src="@drawable/ic_launcher_log" />
+
+            <TextView
+                style="@style/dashBoardTxt"
+                android:layout_below="@id/logsBtn"
+                android:text="Logs" />
+        </RelativeLayout>
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,33 @@
+{
+	"results": [
+		{
+			"label": "By Number",
+			"title": "Add Title",
+			"description": "Add a discription here.",
+			"uri": "html/json/advisory_circulators_sort_list.json",
+			"adapterID": "3",
+			"containerID": "listContainer"
+		}, {
+			"label": "By Date",
+			"title": "Add Title",
+			"description": "Add a discription here.",
+			"uri": "html/json/advisory_circulators_sort_list.json",
+			"adapterID": "3",
+			"containerID": "listContainer"
+		}, {
+			"label": "By CFR, CAR, SFAR Part",
+			"title": "Add Title",
+			"description": "Add a discription here.",
+			"uri": "html/json/advisory_circulators_sort_list.json",
+			"adapterID": "3",
+			"containerID": "listContainer"
+		}, {
+			"label": "By Cancellation History",
+			"title": "Add Title",
+			"description": "Add a discription here.",
+			"uri": "html/json/advisory_circulators_sort_list.json",
+			"adapterID": "3",
+			"containerID": "listContainer"
+		}
+	]
+}

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/scroller"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_list" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="4dp"
+        android:orientation="vertical" >
+
+        <!-- AC -->
+
+        <LinearLayout
+            android:id="@+id/acItem"
+            style="@style/listItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/listAcronym"
+                android:text="@string/acAcronym" />
+
+            <TextView
+                style="@style/listTitle"
+                android:text="@string/acTitle" />
+
+            <TextView
+                style="@style/listDiscription"
+                android:text="@string/acDiscription" />
+
+            <include layout="@layout/divider" />
+        </LinearLayout>
+
+        <!-- AD -->
+
+        <LinearLayout
+            android:id="@+id/adItem"
+            style="@style/listItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/listAcronym"
+                android:text="AD" />
+
+            <TextView
+                style="@style/listTitle"
+                android:text="Airworthiness Directives" />
+
+            <TextView
+                style="@style/listDiscription"
+                android:text="Legally enforceable rules that apply to aircraft, aircraft engines, propellers, and appliances." />
+
+            <include layout="@layout/divider" />
+        </LinearLayout>
+
+        <!-- AC -->
+
+        <LinearLayout
+            android:id="@+id/acItem"
+            style="@style/listItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/listAcronym"
+                android:text="@string/acAcronym" />
+
+            <TextView
+                style="@style/listTitle"
+                android:text="@string/acTitle" />
+
+            <TextView
+                style="@style/listDiscription"
+                android:text="@string/acDiscription" />
+
+            <include layout="@layout/divider" />
+        </LinearLayout>
+
+        <!-- AC -->
+
+        <LinearLayout
+            android:id="@+id/acItem"
+            style="@style/listItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/listAcronym"
+                android:text="@string/acAcronym" />
+
+            <TextView
+                style="@style/listTitle"
+                android:text="@string/acTitle" />
+
+            <TextView
+                style="@style/listDiscription"
+                android:text="@string/acDiscription" />
+
+            <include layout="@layout/divider" />
+        </LinearLayout>
+
+        <!-- AC -->
+
+        <LinearLayout
+            android:id="@+id/acItem"
+            style="@style/listItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/listAcronym"
+                android:text="@string/acAcronym" />
+
+            <TextView
+                style="@style/listTitle"
+                android:text="@string/acTitle" />
+
+            <TextView
+                style="@style/listDiscription"
+                android:text="@string/acDiscription" />
+
+            <include layout="@layout/divider" />
+        </LinearLayout>
+
+        <!-- AC -->
+
+        <LinearLayout
+            android:id="@+id/acItem"
+            style="@style/listItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/listAcronym"
+                android:text="@string/acAcronym" />
+
+            <TextView
+                style="@style/listTitle"
+                android:text="@string/acTitle" />
+
+            <TextView
+                style="@style/listDiscription"
+                android:text="@string/acDiscription" />
+
+            <include layout="@layout/divider" />
+        </LinearLayout>
+
+        <!-- AC -->
+
+        <LinearLayout
+            android:id="@+id/acItem"
+            style="@style/listItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/listAcronym"
+                android:text="@string/acAcronym" />
+
+            <TextView
+                style="@style/listTitle"
+                android:text="@string/acTitle" />
+
+            <TextView
+                style="@style/listDiscription"
+                android:text="@string/acDiscription" />
+
+            <include layout="@layout/divider" />
+        </LinearLayout>
+
+        <!-- AC -->
+
+        <LinearLayout
+            android:id="@+id/acItem"
+            style="@style/listItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/listAcronym"
+                android:text="@string/acAcronym" />
+
+            <TextView
+                style="@style/listTitle"
+                android:text="@string/acTitle" />
+
+            <TextView
+                style="@style/listDiscription"
+                android:text="@string/acDiscription" />
+
+            <include layout="@layout/divider" />
+        </LinearLayout>
+
+        <!-- AC -->
+
+        <LinearLayout
+            android:id="@+id/acItem"
+            style="@style/listItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/listAcronym"
+                android:text="@string/acAcronym" />
+
+            <TextView
+                style="@style/listTitle"
+                android:text="@string/acTitle" />
+
+            <TextView
+                style="@style/listDiscription"
+                android:text="@string/acDiscription" />
+
+            <include layout="@layout/divider" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

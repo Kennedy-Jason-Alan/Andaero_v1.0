@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Andaero_v0.0.2</string>
+    <string name="acAcronym">AC</string>
+    <string name="acTitle">Advisory Circulators</string>
+    <string name="acDiscription">Provides guidance such as methods, procedures, and practices for complying with regulations and requirements.</string>
+    <string name="myDNS">http://192.168.1.17/</string>
+
+    <string-array name="action_list">
+        <item>D a s h B o a r d  </item>
+        <item>V e n u s  </item>
+        <item>E a r t h  </item>
+    </string-array>
+
+</resources>

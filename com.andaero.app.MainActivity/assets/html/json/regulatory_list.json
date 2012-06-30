@@ -1,0 +1,68 @@
+{
+	"results": [
+		{
+			"label": "AC",
+			"title": "Advisory Circulators",
+			"description": "Provides guidance such as methods, procedures, and practices for complying with regulations and requirements.",
+			"uri": "html/json/advisory_circulators_sort_list.json",
+			"adapterID": "3",
+			"containerID": "listContainer"
+		}, {
+			"label": "AD",
+			"title": "Airworthiness Directives",
+			"description": "Legally enforceable rules that apply to aircraft, aircraft engines, propellers, and appliances.",
+			"uri": "html/json/advisory_circulators_sort_list.json",
+			"adapterID": "3",
+			"containerID": "listContainer"
+		}, {
+			"label": "CFR",
+			"title": "Code of Federal Regulations",
+			"description": "Official Rulemaking documents of the CFR in Title 14 and have been published in the Federal Register",
+			"uri": "html/json/advisory_circulators_sort_list.json",
+			"adapterID": "1",
+			"containerID": "listContainer"
+		}, {
+			"label": "PMA",
+			"title": "Parts Manufacturer Approvals",
+			"description": "Issued for the production of modification or replacement parts, which includes materials, parts, processes, and appliances",
+			"uri": "html/json/advisory_circulators_sort_list.json",
+			"adapterID": "1",
+			"containerID": "listContainer"
+		}, {
+			"label": "SAIB",
+			"title": "Special Airworthiness Info Bulletins",
+			"description": "Bulletins issued by manufacturers to provide modification or inspection instructions.",
+			"uri": "html/json/advisory_circulators_sort_list.json",
+			"adapterID": "1",
+			"containerID": "listContainer"
+		}, {
+			"label": "SFAR",
+			"title": "Special Federal Aviation Regulation",
+			"description": "Official Rulemaking documents that have changed the language of the CFR in Title 14 CFR for aviation.",
+			"uri": "html/json/advisory_circulators_sort_list.json",
+			"adapterID": "1",
+			"containerID": "listContainer"
+		}, {
+			"label": "STC",
+			"title": "Supplemental Type Certificates",
+			"description": "Document issued by the Federal Aviation Administration approving a product (aircraft, engine, or propeller) modification",
+			"uri": "html/json/advisory_circulators_sort_list.json",
+			"adapterID": "1",
+			"containerID": "listContainer"
+		}, {
+			"label": "TSO",
+			"title": "Technical Standard Orders",
+			"description": "Minimum performance standards issued by the FAA for specified materials, parts, processes, and appliances used on civil aircraft.",
+			"uri": "html/json/advisory_circulators_sort_list.json",
+			"adapterID": "1",
+			"containerID": "listContainer"
+		}, {
+			"label": "TCDS",
+			"title": "Type Certificate Data Sheets",
+			"description": "Repository of Make and Model information of aircraft, engine or propeller including airspeed, weight, and thrust limitations, etc.",
+			"uri": "html/json/advisory_circulators_sort_list.json",
+			"adapterID": "1",
+			"containerID": "listContainer"
+		}
+	]
+}

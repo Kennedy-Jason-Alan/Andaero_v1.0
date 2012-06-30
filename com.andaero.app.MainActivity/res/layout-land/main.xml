@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     /////////////////////////////////////
+	 !!-THIS FILE IS FOR LANDSCAPE MODE-!!
+	//////////////////////////////////////
+-->
+
+<com.andaero.app.AnimationLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/animation_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/main_layout_sidebar"
+        android:layout_width="360dip"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/navigation_actionbar" />
+
+        <include layout="@layout/divider"/>
+
+        <FrameLayout
+            android:id="@+id/listContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </FrameLayout>
+    </LinearLayout>
+
+    <!-- To make LinearLayout clickable to trigger onContentTouchedWhenOpening() -->
+
+    <LinearLayout
+        android:id="@+id/main_layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/content_boarder"
+        android:clickable="true"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/viewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+    </LinearLayout>
+
+</com.andaero.app.AnimationLayout>

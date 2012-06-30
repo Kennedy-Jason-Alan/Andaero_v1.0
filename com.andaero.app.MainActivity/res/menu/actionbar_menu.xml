@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<!--     <item
+        android:id="@+id/menu_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:showAsAction="ifRoom|withText"
+        android:title="Search"/> -->
+    
+    <item
+        android:id="@+id/listOrder"
+        android:showAsAction="never"
+        android:title="Sort Asc./Desc."/>
+
+    <item
+        android:id="@+id/sortDateBtn"
+        android:showAsAction="never"
+        android:title="Sort by Date"/>
+
+    <item
+        android:id="@+id/sortFavBtn"
+        android:showAsAction="never"
+        android:title="Favorites"/>
+    
+</menu>

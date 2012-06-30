@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     /////////////////////////////////////
+	 !!-THIS FILE IS FOR PORTRIAT MODE-!!
+	//////////////////////////////////////
+-->
+
+<com.andaero.app.layouts.AnimationLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/animation_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@id/animation_layout_sidebar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/navigation_actionbar" />
+
+        <ImageView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="2dp"
+            android:scaleType="fitXY"
+            android:src="@android:drawable/divider_horizontal_dark" />
+
+        <FrameLayout
+            android:id="@+id/listContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </FrameLayout>
+    </LinearLayout>
+
+    <!-- To make LinearLayout clickable to trigger onContentTouchedWhenOpening() -->
+
+    <LinearLayout
+        android:id="@id/animation_layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/content_boarder"
+        android:clickable="true"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/viewContainer"
+            style="@style/contentBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+    </LinearLayout>
+
+</com.andaero.app.layouts.AnimationLayout>

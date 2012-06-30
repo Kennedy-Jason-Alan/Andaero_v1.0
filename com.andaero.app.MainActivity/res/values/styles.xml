@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyTheme" parent="@android:style/Theme.Holo.Wallpaper">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+
+    <style name="ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/actionbar_background</item>
+    </style>
+
+    <style name="contentBackground">
+        <item name="android:background">@drawable/content_background</item>
+    </style>
+
+    <!-- Dash Board Properties ========================================================================== -->
+    <style name="dashBoardTxt">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">#ccc</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="dashBoardimageBtn">
+        <item name="android:layout_gravity">center</item>
+        <!-- <item name="android:background">@drawable/dashboard_icons</item> -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <!-- List Item Properties ========================================================================== -->
+
+    <style name="listItem">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">4dip</item>
+    </style>
+
+    <style name="listAcronym">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FF6600</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="listTitle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/listLabel</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <style name="listDiscription">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#999</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_below">@id/listTitle</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">6dip</item>
+    </style>
+
+    <style name="listDates">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#777</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="scroller">
+        <item name="android:fadingEdgeLength">10dp</item>
+        <item name="android:requiresFadingEdge">vertical</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_vertical_thumb</item>
+        <item name="android:smoothScrollbar">true</item>
+    </style>
+
+</resources>
